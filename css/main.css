@@ -1,0 +1,84 @@
+.full-background {
+  background-image: url(../photos/hand-drawn.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  text-align: center;
+  font-size: 40px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  font-family: cursive;
+}
+
+.mesImage {
+  width: 220px;
+  height: 220px;
+  cursor: pointer;
+  align-content: center;
+}
+.mesImage:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 5px 5px rgb(109, 134, 37);
+  text-shadow: 5px 5px 5px white;
+}
+.title {
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  box-shadow: 5px 5px 5px rgb(109, 134, 37);
+  text-shadow: 5px 5px 5px white;
+}
+.title:hover {
+  transform: scale(1.2);
+}
+.btncont {
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+}
+.btncont :hover {
+  background-color: rgb(153, 181, 142);
+}
+
+.btns {
+  justify-self: center;
+  background-color: rgb(109, 134, 37);
+  color: white;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#Paragrraph {
+  font-family: "Georgia", serif;
+  font-size: 30px;
+  background-color: rgb(255, 255, 255, 0.544);
+  color: rgb(109, 134, 37);
+  box-shadow: 5px 5px 5px rgb(109, 134, 37);
+  text-shadow: 5px 5px 5px white;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.paras {
+  font-family: "Georgia", serif;
+  font-size: 30px;
+  background-color: rgb(255, 255, 255, 0.544);
+  color: rgb(109, 134, 37);
+  box-shadow: 5px 5px 5px rgb(109, 134, 37);
+  text-shadow: 5px 5px 5px white;
+  line-height: 1.6;
+  width: 152px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
